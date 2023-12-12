@@ -1,0 +1,54 @@
+C:\Users\nikor\source\repos\PostMachine\PostMachine\bin\Debug\PostMachine.exe.config
+C:\Users\nikor\source\repos\PostMachine\PostMachine\bin\Debug\PostMachine.exe
+C:\Users\nikor\source\repos\PostMachine\PostMachine\bin\Debug\PostMachine.pdb
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.AssemblyReference.cache
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.SuggestedBindingRedirects.cache
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\MainWindow.g.cs
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\App.g.cs
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.cache
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\MainWindow.baml
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.g.resources
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.Properties.Resources.resources
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.GenerateResource.cache
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.CoreCompileInputs.cache
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.exe
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine.pdb
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.lref
+C:\Users\nikor\source\repos\PostMachine\PostMachine\obj\Debug\App.baml
+D:\VS_PROJECTS\PostMachine\PostMachine\bin\Debug\PostMachine.exe.config
+D:\VS_PROJECTS\PostMachine\PostMachine\bin\Debug\PostMachine.exe
+D:\VS_PROJECTS\PostMachine\PostMachine\bin\Debug\PostMachine.pdb
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.AssemblyReference.cache
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\MainWindow.g.cs
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\App.g.cs
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.cache
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.lref
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\App.baml
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\MainWindow.baml
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.g.resources
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.Properties.Resources.resources
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.GenerateResource.cache
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.CoreCompileInputs.cache
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.exe
+D:\VS_PROJECTS\PostMachine\PostMachine\obj\Debug\PostMachine.pdb
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\bin\Debug\PostMachine.exe.config
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\bin\Debug\PostMachine.exe
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\bin\Debug\PostMachine.pdb
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.AssemblyReference.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.SuggestedBindingRedirects.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\MainWindow.g.cs
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\App.g.cs
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine_MarkupCompile.lref
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\App.baml
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\MainWindow.baml
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.g.resources
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.Properties.Resources.resources
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.GenerateResource.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.csproj.CoreCompileInputs.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.exe
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\PostMachine.pdb
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\addCommand.g.cs
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\addCommand.baml
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\Splash.g.cs
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\Splash.baml
