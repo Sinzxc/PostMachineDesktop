@@ -1,0 +1,5 @@
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\Tests\obj\Debug\Tests.csproj.SuggestedBindingRedirects.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\Tests\obj\Debug\Tests.Properties.Resources.resources
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\Tests\obj\Debug\Tests.csproj.GenerateResource.cache
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache

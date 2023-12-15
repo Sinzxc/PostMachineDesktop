@@ -1,0 +1,35 @@
+﻿<Window x:Class="PostMachine.quest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostMachine"
+        mc:Ignorable="d"
+        Title="quest" Height="600" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
+    <Grid Background="#FF12141F" >
+        <Grid Margin="59,29,59,35">
+            <Grid.Background>
+                <ImageBrush ImageSource="/bg2.png"/>
+            </Grid.Background>
+            <Label Content="Справка" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.395,0.424" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <Button  Content="Назад" HorizontalAlignment="Center" Margin="0,485,0,0" VerticalAlignment="Top" Width="72" Background="#FF5C6077" Foreground="White" BorderBrush="#00707070" Click="Button_Click"/>
+            <ScrollViewer Margin="43,72,43,65"
+                          VerticalScrollBarVisibility="Hidden">
+                <Grid>
+                    <Label Content="Главное окно" Foreground="#fff" FontSize="15" Height="33" Width="103" Margin="246,21,246,1015"/>
+                    <Image HorizontalAlignment="Center" Height="324" Margin="0,54,0,0" VerticalAlignment="Top" Width="544" Source="/main.png" Stretch="Fill"/>
+                    <Label Content="(1) - Поле команд, в нём отображаются все введённый вами команды, &#x0a; в первом столбце вы можете увидеть указатель на активную команду,&#x0a; во втором номер команды, в третьем команду, в четвёртом ссылку на &#x0a; следующую команду (ы).&#x0a;(2) - Кнопка сброса состояния ленты (при нажатии на неё сбрасываются все закрашенные ячейки, положение каретки и выполнение команды).&#x0a;(3) - Кнопка быстрого выполнения команд.&#x0a;(4) - Кнопка выполнения одной команды.&#x0a;(5) - Кнопка удаления последней команды.&#x0a;(6) - Кнопка добавления команды.&#x0a;(7) - Кнопка, помогающая пролистать ленту до левого края.&#x0a;(8) - Кнопка, помогающая пролистать ленту к центру.&#x0a;(9) - Кнопка, помогающая пролистать ленту до правого края.&#x0a;
+                           " Foreground="#fff" FontSize="15" Height="Auto" Width="500" Margin="0,400" HorizontalAlignment="Left"/>
+                    <Label Content="Окно добавления команды" Foreground="#fff" FontSize="705" Height="33" Width="103" Margin="246,21,246,1015"/>
+                    <Image HorizontalAlignment="Left" Height="324" Margin="10,715,0,0" VerticalAlignment="Top" Width="544" Source="/add.png" Stretch="Fill"/>
+                    <Label Content="(1) - Поле для выбора команды, которую вы хотите создать.&#x0a;(2) - Поде для ввода номера следующей команды.&#x0a;(3) - Поле для ввода номера второй команды, которая может быть следующей в зависимости от выполненимяусловия (по наличию).&#x0a;
+                           " Foreground="#fff" FontSize="15" Height="Auto" Width="500" Margin="26,1059,0,61" HorizontalAlignment="Left"/>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+</Window>

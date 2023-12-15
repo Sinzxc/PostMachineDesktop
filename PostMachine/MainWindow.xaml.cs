@@ -35,14 +35,17 @@ namespace PostMachine
          public MainWindow()
         {
             InitializeComponent();
-            for (int i = -(lineSize / 2); i <= lineSize / 2; i++)
-            {
-                line.Add(new Section(i));
-            }
-            LineInit();
-            noNameStackScroller.ScrollToHorizontalOffset((noNameStackScroller.Width * 8.4) / 2);
-            AddTestCommands();
-            CommandsInit();
+            try {
+                for (int i = -(lineSize / 2); i <= lineSize / 2; i++)
+                {
+                    line.Add(new Section(i));
+                }
+                LineInit();
+                noNameStackScroller.ScrollToHorizontalOffset((noNameStackScroller.Width * 8.4) / 2);
+                AddTestCommands();
+                CommandsInit();
+            } catch(Exception ex) { }
+            
         }
 
         private void Task_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -242,47 +245,53 @@ namespace PostMachine
 
         private void ApplyCommands()
         {
+            try {
+                if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 0 && (carriage.GetCarriageLocation() != -lineSize / 2))
+                    carriage.CarriageLeft();
 
-            if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 0 && (carriage.GetCarriageLocation() != -lineSize/2))
-                carriage.CarriageLeft();
+                if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 1 && (carriage.GetCarriageLocation() != lineSize / 2))
+                    carriage.CarriageRight();
 
-            if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 1 && (carriage.GetCarriageLocation() != lineSize / 2))
-                carriage.CarriageRight();
-
-            if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 2)
-            {
-                line[carriage.GetCarriageLocation()+lineSize/2].SetCheck();
-            }
-
-            if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 3)
-            {
-                line[carriage.GetCarriageLocation() + lineSize / 2].SetUncheck();
-            }
-
-            if (lastCommandComplete >= 0 && lastCommandComplete < commands.GetCommands().Count - 1 && commands.GetCommands()[lastCommandComplete].GetOperationId() != 5 && commands.GetCommands()[lastCommandComplete].GetOperationId() != 4)
-                lastCommandComplete = commands.GetCommands()[lastCommandComplete].GetLink();
-            else
-            {
-                if (commands.GetCommands()[lastCommandComplete].GetOperationId() != 4)
+                if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 2)
                 {
-                    lastCommandComplete = 0;
+                    line[carriage.GetCarriageLocation() + lineSize / 2].SetCheck();
                 }
+
+                if (commands.GetCommands()[lastCommandComplete].GetOperationId() == 3)
+                {
+                    line[carriage.GetCarriageLocation() + lineSize / 2].SetUncheck();
+                }
+
+                if (lastCommandComplete >= 0 && lastCommandComplete < commands.GetCommands().Count - 1 && commands.GetCommands()[lastCommandComplete].GetOperationId() != 5 && commands.GetCommands()[lastCommandComplete].GetOperationId() != 4)
+                    lastCommandComplete = commands.GetCommands()[lastCommandComplete].GetLink();
                 else
                 {
-                    if (!line[carriage.GetCarriageLocation() + lineSize / 2].GetChecked()) {
-
-                       lastCommandComplete= commands.GetCommands()[lastCommandComplete].GetLink();
+                    if (commands.GetCommands()[lastCommandComplete].GetOperationId() != 4)
+                    {
+                        lastCommandComplete = 0;
                     }
                     else
                     {
-                        lastCommandComplete = commands.GetCommands()[lastCommandComplete].GetLink2();
+                        if (!line[carriage.GetCarriageLocation() + lineSize / 2].GetChecked())
+                        {
+
+                            lastCommandComplete = commands.GetCommands()[lastCommandComplete].GetLink();
+                        }
+                        else
+                        {
+                            lastCommandComplete = commands.GetCommands()[lastCommandComplete].GetLink2();
+                        }
+
+
                     }
-                         
-                       
                 }
+                LineInit();
+                CommandsInit();
             }
-            LineInit();
-            CommandsInit();
+            catch { 
+            }
+
+            
         }
 
         private void LineInit()
@@ -334,6 +343,14 @@ namespace PostMachine
         private void leftSide_Copy_MouseDown(object sender, MouseButtonEventArgs e)
         {
             noNameStackScroller.ScrollToHorizontalOffset((noNameStackScroller.Width * 8.4) / 2);
+        }
+
+        private void btn_quest_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            quest q=new quest();
+            q.ShowDialog();
+            MainWindow main = new MainWindow();
+            main.Hide();
         }
     }
 }

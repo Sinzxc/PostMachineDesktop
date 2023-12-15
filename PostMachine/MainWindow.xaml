@@ -25,8 +25,12 @@
                 <ImageBrush ImageSource="/minimize.png" TileMode="None" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Grid x:Name ="border" Background="#FF202335" Width="700" Height="480" Margin="0,45,0,0" Grid.Row="1">
-            <Image x:Name="leftSide" HorizontalAlignment="Left" Height="62" Margin="7,63,0,0" VerticalAlignment="Top" Width="39" Source="/leftSide.png" RenderTransformOrigin="-0.41,0.5" MouseDown="leftSide_MouseDown"/>
+        <Image x:Name="btn_quest" HorizontalAlignment="Left" Height="20" Margin="760,27,0,0" VerticalAlignment="Top" Width="21" Source="/quest.png" RenderTransformOrigin="-0.643,0.714" MouseDown="btn_quest_MouseDown" Grid.Row="1"/>
+        <Grid x:Name ="border" Width="700" Height="480" Margin="0,45,0,0" Grid.Row="1">
+            <Grid.Background>
+                <ImageBrush ImageSource="/bg.png"/>
+            </Grid.Background>
+            <Image  x:Name="leftSide" HorizontalAlignment="Left" Height="62" Margin="7,63,0,0" VerticalAlignment="Top" Width="39" Source="/leftSide.png" RenderTransformOrigin="-0.41,0.5" MouseDown="leftSide_MouseDown"/>
             <Image x:Name="rightSide" HorizontalAlignment="Left" Height="62" Margin="655,63,0,0" VerticalAlignment="Top" Width="39" Source="/rightSide.png" MouseDown="rightSide_MouseDown"/>
             <ScrollViewer  Height="215"  Margin="29,212,21,53" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
                 <Grid x:Name="statusPanel" Background="#303550"  Height="Auto">

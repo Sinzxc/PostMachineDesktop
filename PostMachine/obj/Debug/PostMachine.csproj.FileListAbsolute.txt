@@ -52,3 +52,5 @@ C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debu
 C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\addCommand.baml
 C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\Splash.g.cs
 C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\Splash.baml
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\quest.g.cs
+C:\Users\nikor\OneDrive\Рабочий стол\PostMachine\PostMachine\obj\Debug\quest.baml
